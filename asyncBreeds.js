@@ -26,6 +26,6 @@ const errorHandler = (error) => {
   // console.log(error);
 };
 
-const bombay = breedDetailsGetter('Bombay', breedDetails);
-const badKitty = breedDetailsGetter('Tiger', breedDetailsGetter);
+breedDetailsGetter('Bombay', breedDetails);
+breedDetailsGetter('Tiger', breedDetailsGetter);
 // console.log('bombay return value: ', bombay);
