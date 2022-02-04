@@ -19,7 +19,14 @@ describe('Testing for breedDetails() (synchronous)', () => {
         , expected);
     });
 
-    
+  it('returns "Details not found." when an entry does not exist'
+    , () => {
+      const expected = "Details not found.";
+      assert.equal(
+        breedDetails('Dog')
+        , expected);
+      
+    });
 
 
   
