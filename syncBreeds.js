@@ -12,8 +12,8 @@ const breedDetails = function(breed) {
 };
 
 // get the return value right away from the function
-const cat = breedDetails('Tiger');
-console.log(cat);
+// const cat = breedDetails('Tiger');
+// console.log(cat);
 // console.log(bombay.slice(0,35) + '...'); //=> prints out the description for that breed
 
 module.exports = breedDetails;
